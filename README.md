@@ -22,3 +22,7 @@ To draw close button and add button, you can handle `DrawItem` event.
 **Adjust Tab width**
 
 Set the last tab text to empty string. Then to adjust tab width and let the last tab have smaller width, you can hanlde `HandleCreated` event and send a [`TCM_SETMINTABWIDTH `](https://msdn.microsoft.com/en-us/library/windows/desktop/bb760637(v=vs.85).aspx) to the control and specify the minimum size allowed for the tab width
+
+**Enhancements**
+
+You can enhance the implementation by using `VisualStyleRenderer` and also supporting different tab orientation and also adding rtl support.
